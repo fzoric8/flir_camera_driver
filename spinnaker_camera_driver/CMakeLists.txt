@@ -2,6 +2,10 @@ cmake_minimum_required(VERSION 3.0.2)
 
 set_directory_properties(PROPERTIES COMPILE_OPTIONS "-std=c++11;-Wall;-Wextra")
 
+# Set variables for finding correct Spinnaker files 
+set(Spinnaker_INCLUDE_DIRS "/opt/spinnaker/include")
+set(Spinnaker_LIBRARIES "/opt/spinnaker/lib")
+
 
 project(spinnaker_camera_driver)
 
